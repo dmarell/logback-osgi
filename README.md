@@ -23,12 +23,20 @@
 
 ## Maven usage
 
-```
+```xml
 <dependency>
   <groupId>se.marell</groupId>
   <artifactId>logback-osgi</artifactId>
   <version>1.1.1_5</version>
 </dependency>
+```
+
+or
+
+```groovy
+dependencies{
+    dependency ("se.marell:logback-osgi:1.1.1_5"){}
+}
 ```
 
 ## Usage
